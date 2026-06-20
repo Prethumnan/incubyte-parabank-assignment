@@ -27,7 +27,7 @@ npm -v
 ### Step 1 — Clone & Install everything
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Prethumnan/incubyte-parabank-assignment.git
 cd parabank-automation
 npm run setup
 ```
