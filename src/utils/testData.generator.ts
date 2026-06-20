@@ -13,8 +13,6 @@
 
 import { ENV } from "../../config/env.config";
 
-// ── Types ──────────────────────────────────────────────────────────────────
-
 /** Shape of a generated test user — mirrors the ParaBank registration form */
 export interface TestUser {
   firstName: string;
