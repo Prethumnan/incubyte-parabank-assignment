@@ -1,0 +1,24 @@
+{
+  "default": {
+    "timeout": 60000,
+    "require": [
+      "src/utils/world.ts",
+      "hooks/hooks.ts",
+      "src/steps/**/*.ts"
+    ],
+    "features": [
+      "features/**/*.feature"
+    ],
+    "requireModule": [
+      "ts-node/register"
+    ],
+    "format": [
+      "progress-bar",
+      "html:reports/cucumber-report.html",
+      "json:reports/cucumber-report.json"
+    ],
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    }
+  }
+}
